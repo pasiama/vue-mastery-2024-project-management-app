@@ -5,6 +5,6 @@ const router = useRoute()
 
 <template>
   <div>
-    <h1>Single Project with id : {{ router.params.id }}</h1>
+    <h1>Single Project with id : {{ router.params.slug }}</h1>
   </div>
 </template>
